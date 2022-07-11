@@ -1,5 +1,5 @@
 Project Description:
-It is a landing page that contains a biography, there are 5 sections here ,Education, Technical skils, soft skills, Languges, webs develop, each section contains its own data, and when moving between sections using the scrool or through the use of the nav bar, a change occurs on the selected section.
+It is a landing page that contains my CV, there are 5 sections here, education, technical skills, soft skills, languages, training courses, i used HTML, CSS, JS were used for page layout and design and smooth navigation between project sections.
 
 programming languages:
  - Html
