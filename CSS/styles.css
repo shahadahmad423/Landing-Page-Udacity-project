@@ -433,16 +433,13 @@ h2{
     top:32%;
     left: 90%;
     animation: animate 9s linear infinite;
-    
+  
 }
 .box div:nth-child(10){
     top:80%;
     left: 20%;
-    animation: animate 9s linear infinite;
-    
+    animation: animate 9s linear infinite; 
 }
-
-
 
 @keyframes animate{
     0%{transform: scale(0) translateY(0) rotate(0);
@@ -454,8 +451,6 @@ h2{
 
 }
 
-
-
 /*----------------footer-----------------------*/
 footer{
     padding-bottom: 20px;
@@ -464,18 +459,13 @@ footer{
 .footer{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-
     
 }
 
 .border-left{
     grid-template-areas: border-left;
     border-left:1px solid;
-    padding:20px
-
-
-    
-    
+    padding:20px  
 }
 
 .flex-ooter{
@@ -492,6 +482,7 @@ footer{
     display: flex;
     align-items: center;
     justify-content: center;
+    margin-right: 10px;
 }
 
 .contact{
@@ -499,8 +490,6 @@ footer{
     flex-direction: column;
     width: 99%;
     margin: 0px auto;
-  
-
 }
 
 .contact > h3{
@@ -532,12 +521,16 @@ footer{
     background-color: white;
     color: rgb(10, 10, 19);
 }
+input{
+    border-radius: 5px;
+}
+button{
+    border-radius: 5px; 
+}
 /*--------------------------------small screen--------------------------------*/
-
 
 /*Small devices (landscape phones, 576px and up)*/
 @media (min-width: 576px) { 
-
 
 }
 /*/Medium devices (tablets, 768px and up)*/
@@ -600,23 +593,18 @@ ul{
     width: 90%;
     margin: 0 auto;
     border-radius: 5px;
-     }
-    
-    
-    
-     .right1 {
-        width: 90%;
+}
+
+ .right1 {
+    width: 90%;
     margin: 0 auto;
     border-radius: 5px;
-     }
-
-     .delete{
-        display: none;
-     }
-
-
-     .footer-smallscreen {
-        display: block;
-    }
-     
+ }
+ .delete{
+    display: none;
+ }
+ .footer-smallscreen {
+    display: block;
+}
+ 
 }
