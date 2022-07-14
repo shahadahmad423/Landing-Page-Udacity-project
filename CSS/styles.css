@@ -237,6 +237,10 @@ a{
    padding-left: 2px;
 }
 
+.img{
+    display: flex;
+    align-items: flex-start; 
+}
 
 
 .contanar-t{
@@ -269,7 +273,7 @@ p{
 .html{
     width: 100%;
     height: 100%;
-    background-color: rgb(255, 98, 0);
+    background-color: rgb(61, 48, 57);
     padding: 0%;
     margin: 0%;
     animation: Arabic 3s;
@@ -278,7 +282,7 @@ p{
 .SQL{
     width: 95%;
     height: 100%;
-    background-color: rgb(255, 98, 0);
+    background-color: rgb(61, 48, 57);
     padding: 0%;
     margin: 0%;
     animation: SQL 3s;
@@ -305,7 +309,7 @@ p{
 .css{
         width: 90%;
         height: 100%;
-        background-color: rgb(255, 98, 0);
+        background-color: rgb(61, 48, 57);
         padding: 0%;
         margin: 0%;
         animation: html 3s;
@@ -314,7 +318,7 @@ p{
 .js{
         width: 80%;
         height: 100%;
-        background-color: rgb(255, 98, 0);
+        background-color: rgb(61, 48, 57);
         padding: 0%;
         margin: 0%;
         animation: js 3s;
@@ -324,7 +328,7 @@ p{
 .Arabic{
     width: 100%;
     height: 100%;
-    background-color: rgb(255, 98, 0);
+    background-color: rgb(61, 48, 57);
     padding: 0%;
     margin: 0%;
     animation: Arabic 3s;
@@ -347,7 +351,6 @@ p{
     }
     
 }
-
 
 /*--------------first part  ---------------*/
 .big-box{
@@ -453,6 +456,82 @@ h2{
 
 
 
+/*----------------footer-----------------------*/
+footer{
+    padding-bottom: 20px;
+}
+
+.footer{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+
+    
+}
+
+.border-left{
+    grid-template-areas: border-left;
+    border-left:1px solid;
+    padding:20px
+
+
+    
+    
+}
+
+.flex-ooter{
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    gap: 5px;
+    margin-bottom: 10px;
+
+}
+
+.hight{
+    height: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.contact{
+    display: flex;
+    flex-direction: column;
+    width: 99%;
+    margin: 0px auto;
+  
+
+}
+
+.contact > h3{
+    padding: 0%;
+    margin: 0%;
+}
+
+.contact>button{
+    margin-top: 10px;
+}
+
+.hight-content{
+    height: 70px;
+}
+
+.flex2{
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+}
+.footer-smallscreen {
+    display: none;
+}
+.footer-smallscreen >h4{
+    text-align: center;
+}
+.copyright{
+    text-align: center;
+    background-color: white;
+    color: rgb(10, 10, 19);
+}
 /*--------------------------------small screen--------------------------------*/
 
 
@@ -504,6 +583,7 @@ ul{
 
  .main{
     margin-top: 130px;
+    margin-bottom: 50px;
  }
 
  .big-box {
@@ -529,4 +609,14 @@ ul{
     margin: 0 auto;
     border-radius: 5px;
      }
+
+     .delete{
+        display: none;
+     }
+
+
+     .footer-smallscreen {
+        display: block;
+    }
+     
 }
